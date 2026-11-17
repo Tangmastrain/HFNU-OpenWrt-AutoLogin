@@ -255,7 +255,7 @@ sh /tmp/campus-login.sh install
 | --- | --- | --- |
 | `USERNAME` | `YOUR_STUDENT_ID` | **必改**。学号 / 校园卡号（账号自带 `@` 时填完整账号） |
 | `PASSWORD` | `YOUR_PASSWORD` | **必改**。校园网密码（明文提交，接口要求如此） |
-| `ISP_SUFFIX` | `telecom` | 运营商后缀，拼成 `账号@后缀`。电信 `telecom` / 联通 `unicom` / 移动 `cmcc`；账号自带 `@` 或无运营商出口时留空 |
+| `ISP_SUFFIX` | `telecom` | 运营商后缀，拼成 `账号@后缀`。HFNU 常见：校园出口 `campus` / 电信 `telecom` / 联通 `unicom` / 移动 `cmcc`（**以你 F12 抓包里 `user_account=%40` 后面为准**）；账号自带 `@` 或无运营商出口时留空 |
 | `PORTAL` | `192.168.1.100` | 认证门户 IP，一般不用改 |
 | `EPORT` | `801` | 门户 eportal 端口 |
 | `WLANACNAME` | `me60` | ME60 的 AC 名称（探测不到劫持参数时的回退值） |
